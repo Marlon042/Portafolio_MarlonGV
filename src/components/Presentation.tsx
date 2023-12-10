@@ -5,7 +5,8 @@ const Presentation = () => {
     <div className="jumbotron">
       <h1 className="display-4">Hi, I'm Marlon Gutiérrez V.</h1>
       <p className="lead">
-        I'm a web developer and software engineer with 5 years of experience, graduated at Universidad Nacional (UNA)
+        I'm pursuing a degree in Information Systems Engineering at Universidad Nacional de Costa Rica (UNA)
+        +8 years of plenty experience with computer systems.
       </p>
       <hr className="my-4" />
       <p>
