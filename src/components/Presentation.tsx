@@ -16,7 +16,7 @@ const Presentation = () => {
       - Creating Web pages in Next.js framework, HTML, Javascript, Tailwind CSS, Bootstrap.
       </p>
       <p className='lead'>
-      - Information managment.
+      - Web Deployment with Github and Vercel.
       </p>
       <hr className="my-4" />
       
