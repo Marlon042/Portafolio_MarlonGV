@@ -7,7 +7,10 @@ const CTA = () => {
       <h1>Hire me!</h1>
       <p>
         I'm available for new projects & more. Let's work together to build something
-        great.
+        great. 
+      </p>
+      <p>
+      *This page is currently in development*
       </p>
       <p>
         <Button variant="primary" href="#contact-me">
