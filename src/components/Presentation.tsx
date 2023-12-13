@@ -3,14 +3,25 @@ import { Button } from 'react-bootstrap';
 const Presentation = () => {
   return (
     <div className="jumbotron">
-      <h1 className="display-4">Hi, I'm Marlon Gutiérrez V.</h1>
+      <h1 className="display-5">Hi 👋🏼, I'm Marlon Gutiérrez V.</h1>
       <p className="lead">
         I'm pursuing a degree in Information Systems Engineering at Universidad Nacional de Costa Rica (UNA)
-        +8 years of plenty experience with computer systems.
+        +10 years of plenty experience in tech support with computer systems.
       </p>
       <hr className="my-4" />
-      <p>
-        Check out my social media networks to know more about me :  
+      <p className='lead'>
+      - Experience in developing desktop & Web Apps in Java Maven with embedded servers, SQL databases and Api's.
+      </p>
+      <p className='lead'>
+      - Creating Web pages in Next.js framework, HTML, Javascript, Tailwind CSS, Bootstrap.
+      </p>
+      <p className='lead'>
+      - Information managment.
+      </p>
+      <hr className="my-4" />
+      
+      <p className='lead'>
+        Also check out my social media networks to know more about me :    
         <Button
           variant="outline-primary"
           size="sm"
