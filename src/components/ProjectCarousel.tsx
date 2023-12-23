@@ -13,13 +13,23 @@ const ProjectCarousel = () => {
           {data.map((project) => (
             <Carousel.Item key={project.id}>
               <a href={project.html_url} target="_blank" rel="noopener noreferrer">
-                <img
-                  className="d-block w-100"
-                  src="/black-frame.jpg"
-                  width="500"
-                  height="400"
-                  alt={project.name}
-                />
+                {project.firstImage ? (
+                  <img
+                    className="d-block w-100"
+                    src={project.firstImage}
+                    width="500"
+                    height="400"
+                    alt={project.name}
+                  />
+                ) : (
+                  <img
+                    className="d-block w-100"
+                    src="/black-frame.jpg"  // Ruta de la imagen de muestra
+                    width="500"
+                    height="400"
+                    alt={project.name}
+                  />
+                )}
                 <Carousel.Caption>
                   <h3>{project.name}</h3>
                   <p>{project.description}</p>
@@ -34,4 +44,3 @@ const ProjectCarousel = () => {
 };
 
 export default ProjectCarousel;
-
