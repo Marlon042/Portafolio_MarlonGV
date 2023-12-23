@@ -30,10 +30,14 @@ const ProjectCarousel = () => {
                     alt={project.name}
                   />
                 )}
-                <Carousel.Caption>
+                <Carousel.Caption className="text-light text-center bg-secondary bg-opacity-75 p-3 rounded">
                   <h3>{project.name}</h3>
                   <p>{project.description}</p>
                 </Carousel.Caption>
+
+
+
+
               </a>
             </Carousel.Item>
           ))}
