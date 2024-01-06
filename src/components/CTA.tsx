@@ -1,23 +1,29 @@
 import { Button } from 'react-bootstrap';
+import { saveAs } from 'file-saver';
 
 // Call To Action
 const CTA = () => {
-  const handleDownloadCV = () => {
-    // Cambia 'nombre_del_cv.pdf' por el nombre real de tu archivo PDF
-    const pdfUrl = '/pdf/mi_cv.pdf';
-
-    // Crea un elemento 'a' (enlace) invisible para la descarga
-    const link = document.createElement('a');
-    link.href = pdfUrl;
-    link.download = 'mi_cv.pdf';
-
-    // Simula un clic en el enlace para iniciar la descarga
-    document.body.appendChild(link);
-    link.click();
-
-    // Elimina el enlace del cuerpo del documento
-    document.body.removeChild(link);
+  const handleDownloadCV = async () => {
+    try {
+      const pdfUrl = 'mi_cv.pdf';
+  
+      // Descarga el archivo y lo guarda localmente
+      const response = await fetch(pdfUrl);
+  
+      if (!response.ok) {
+        throw new Error(`Error al descargar el CV: ${response.statusText}`);
+      }
+  
+      const blob = await response.blob();
+      saveAs(blob, 'mi_cv.pdf');
+    } catch (error) {
+      console.error('Error al descargar el CV:', error);
+    }
   };
+  
+
+
+
 
   return (
     <div className="jumbotron">
