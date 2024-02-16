@@ -15,7 +15,7 @@ const CTA = () => {
       }
   
       const blob = await response.blob();
-      saveAs(blob, 'mi_cv.pdf');
+      saveAs(blob, 'Resume Marlon Gutierrez.pdf');
     } catch (error) {
       console.error('Error al descargar el CV:', error);
     }
