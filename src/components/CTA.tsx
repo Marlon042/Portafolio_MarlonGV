@@ -5,7 +5,7 @@ import { saveAs } from 'file-saver';
 const CTA = () => {
   const handleDownloadCV = async () => {
     try {
-      const pdfUrl = 'mi_cv.pdf';
+      const pdfUrl = 'Resume_Marlon.pdf';
   
       // Descarga el archivo y lo guarda localmente
       const response = await fetch(pdfUrl);
@@ -15,7 +15,7 @@ const CTA = () => {
       }
   
       const blob = await response.blob();
-      saveAs(blob, 'Resume_Marlon_GV.pdf');
+      saveAs(blob, 'Resume_Marlon_Gutierrez.pdf');
     } catch (error) {
       console.error('Error al descargar el CV:', error);
     }
