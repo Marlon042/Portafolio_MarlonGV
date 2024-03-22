@@ -2,3 +2,4 @@
 node_modules
 *.pack
 .next/cache/webpack/server-development/index.pack.old
+/.next
