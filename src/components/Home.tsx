@@ -1,4 +1,4 @@
-import Header from '../components/Header';
+import Header from './Header';
 import Presentation from '../components/Presentation';
 import GitHubProjectsProvider from '../components/GitHubProjectsProvider';
 import ProjectCarousel from '../components/ProjectCarousel';
@@ -10,11 +10,20 @@ const Home = () => {
     <>
       <Header />
       <main>
-        <Presentation />
+        {/* Aquí envolvemos Presentation con un div que tiene el id */}
+        <div id="top">
+          <Presentation />
+        </div>
         <GitHubProjectsProvider>
-          <ProjectCarousel />
+          {/* Aquí envolvemos ProjectCarousel con un div que tiene el id */}
+          <div id="projects">
+            <ProjectCarousel />
+          </div>
         </GitHubProjectsProvider>
-        <CTA />
+        {/* Aquí envolvemos CTA con un div que tiene el id */}
+        <div id="hire-me">
+          <CTA />
+        </div>
       </main>
       <Footer />
     </>
