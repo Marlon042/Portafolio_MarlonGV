@@ -1,3 +1,6 @@
+<img width="1348" height="605" alt="image" src="https://github.com/user-attachments/assets/f9dc4926-e020-4971-983c-0c39a2c1d35c" />
+
+
 # Portafolio_MarlonGV
 
 El repositorio Portafolio_MarlonGV es un portafolio web desarrollado con Next.js y React. Su principal funcionalidad es mostrar una presentación personal y destacar proyectos propios alojados en GitHub. El código implementa un proveedor que consulta los repositorios públicos del usuario en GitHub, analiza el contenido de sus README y extrae la primera imagen para mostrarla en un carrusel visual de proyectos. Además, la estructura incluye secciones como presentación, llamada a la acción para contratación y un pie de página, todo integrado en una sola página web moderna y responsiva.
