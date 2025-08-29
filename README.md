@@ -1,3 +1,9 @@
+# Portafolio_MarlonGV
+
+El repositorio Portafolio_MarlonGV es un portafolio web desarrollado con Next.js y React. Su principal funcionalidad es mostrar una presentación personal y destacar proyectos propios alojados en GitHub. El código implementa un proveedor que consulta los repositorios públicos del usuario en GitHub, analiza el contenido de sus README y extrae la primera imagen para mostrarla en un carrusel visual de proyectos. Además, la estructura incluye secciones como presentación, llamada a la acción para contratación y un pie de página, todo integrado en una sola página web moderna y responsiva.
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -33,6 +39,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app).
